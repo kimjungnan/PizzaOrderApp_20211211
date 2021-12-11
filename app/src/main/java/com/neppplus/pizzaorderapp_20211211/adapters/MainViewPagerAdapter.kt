@@ -20,5 +20,11 @@ class MainViewPagerAdapter( fm: FragmentManager ) : FragmentPagerAdapter( fm ) {
 
     }
 
+    override fun getPageTitle(position: Int): CharSequence? {
+       return when(position){
+           0 -> "피자주문"
+           else -> "내 정보 설정"
 
+       }
+    }
 }

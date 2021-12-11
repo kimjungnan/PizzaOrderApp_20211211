@@ -7,7 +7,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.neppplus.pizzaorderapp_20211211.R
 
-class MyProfileFragment : Fragment {
+class MyProfileFragment : Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
